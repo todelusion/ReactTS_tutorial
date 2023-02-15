@@ -1,0 +1,7 @@
+/node_modules
+/package-lock.json
+/package.json
+/postcss.config.cjs
+/vite.config.ts
+/tailwind.config.cjs
+/src/utils/xml2json.js

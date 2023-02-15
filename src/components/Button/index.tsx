@@ -1,11 +1,23 @@
-import React from 'react'
+import React from "react";
 
-type Props = {}
-
-function index({}: Props) {
-  return (
-    <div>index</div>
-  )
+interface IButtonProps {
+  text: string;
+  onClick?: () => void;
+  className?: string;
 }
 
-export default index
+function index({ text, onClick, className }: IButtonProps): JSX.Element {
+  return (
+    <button
+      onClick={onClick}
+      type="button"
+      className={`${
+        className ?? ""
+      } min-w-[120px] rounded-full bg-white py-5 text-2xl text-black`}
+    >
+      {text}
+    </button>
+  );
+}
+
+export default index;
