@@ -1,16 +1,13 @@
 import React, { useState } from "react";
+import Button from "../../components/Button";
 
-function Lesson2component(): JSX.Element {
-  const [count, setCount] = useState(0);
-  const handleCount = (): void => {
-    setCount((prev) => prev + 1);
-  };
-
+function Lesson1component(): JSX.Element {
   return (
     <div className="flex flex-col items-center">
       <h2 className="title mb-10">定義component props 以及 children </h2>
+      <Button text="按鈕" />
     </div>
   );
 }
 
-export default Lesson2component;
+export default Lesson1component;

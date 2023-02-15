@@ -5,11 +5,23 @@ const navData = [
   },
   {
     path: "/lesson1/useState",
-    name: "useState",
+    name: "1. useState",
   },
   {
-    path: "/lesson2/component",
-    name: "component",
+    path: "/lesson1/component",
+    name: "1. component",
+  },
+  {
+    path: "/lesson2/todolist",
+    name: "2. todolist local",
+  },
+  {
+    path: "/lesson3/useEffect",
+    name: "3. useEffect",
+  },
+  {
+    path: "/lesson4/context",
+    name: "4. context",
   },
 ];
 
