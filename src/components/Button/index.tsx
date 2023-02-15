@@ -13,7 +13,7 @@ function index({ text, onClick, className }: IButtonProps): JSX.Element {
       type="button"
       className={`${
         className ?? ""
-      } min-w-[120px] rounded-full bg-white py-5 text-2xl text-black`}
+      } min-w-[120px] rounded-3xl border-2 border-black py-5 font-bold duration-150 hover:bg-pink`}
     >
       {text}
     </button>

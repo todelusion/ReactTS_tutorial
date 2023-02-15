@@ -6,10 +6,19 @@
 
 @layer base {
   body {
-    @apply box-border bg-slate-700 font-sans;
+    @apply box-border bg-[#f2f2f2] font-sans;
   }
 }
 @layer components {
+  .title {
+    @apply text-center font-serif text-2xl font-semibold tracking-widest;
+  }
+  .countBtn {
+    @apply min-h-[120px] min-w-[120px] rounded-md border-2 border-black;
+  }
+  .flex-col-center {
+    @apply flex flex-col items-center;
+  }
 }
 
 @layer utilities {
