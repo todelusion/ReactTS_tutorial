@@ -14,13 +14,13 @@ function Lesson1useState(): JSX.Element {
       <button onClick={handleCount} type="button" className="countBtn mb-5">
         count {count}
       </button>
-      <button
+      {/* <button
         type="button"
         className="countBtn mb-10"
         onClick={() => setCount("123")}
       >
         錯誤按鈕
-      </button>
+      </button> */}
     </section>
   );
 }
